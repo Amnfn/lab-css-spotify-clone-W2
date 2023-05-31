@@ -1,0 +1,157 @@
+html {
+    font-family: sans-serif;
+    width: auto;
+    margin: auto;
+}
+body {
+    padding: 0;
+}
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100vw;
+}
+body {
+    color: black;
+    line-height: 147%;
+}
+#spotifylogo {
+    width: 10em;
+    height: 3em;
+    padding: 0.5em;
+}
+#navbar {
+    align-items: right;
+    color: black;
+    border: 3px solid lightgreen;
+    border-spacing: 30em;
+    margin: 2.5px 3px;
+}
+a:link {
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+.bordercolor {
+    border: 1px solid aqua;
+    margin: 3px;
+}
+.firstbord {
+    border: 3px solid violet;
+}
+#navbar a {
+    padding: 1em;
+}
+.landing { 
+    background-image: url("./../images/landing.jpg");
+    height: 50em;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 3em;
+    font-weight: 50;
+    letter-spacing: 2px; 
+}
+#boxing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border: 3.5px solid red;
+}
+.box {
+    border: 3.5px solid #dfff00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    padding:4em;
+    margin: 2.5em 1em;
+}
+#hard {
+    display: flex;
+    border:3px solid orange;
+}
+.box p {
+    width: 10em;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.mini-icon {
+    height: 5em;
+    width: 5em;
+}
+#kwest {
+    background-color: rgb(15, 157, 88);
+    color: white;
+    background-image: url("./../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 5em;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5em;
+    border:3px solid blue;
+    margin: 0px 20px;
+}
+#app-photo {
+    height: 30em;
+    padding: 2em;
+}
+#playlist {
+    width: 22em;
+    text-align: left;
+}
+.options {
+    font-size: large;
+    font-weight: 300;
+    padding: 0.5em;
+}
+
+.firstopac {
+    font-weight: 2;
+    opacity: .8;
+}
+h2 {
+    font-weight: 400;
+    font-stretch: condensed;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #3cb043;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+h3 {
+    color:rgb(15, 157, 88) ;
+    display: inline;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;   
+}
+h4 {
+    font-size: larger;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+.text-description {
+    font-size: medium;
+    font-weight: lighter;
+}
